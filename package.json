@@ -1,0 +1,27 @@
+{
+  "name": "spake",
+  "version": "1.0.0",
+  "description": "Quote sharing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chr-st-ph-r/spake.git"
+  },
+  "keywords": [
+    "quotes",
+    "sharing",
+    "quotations"
+  ],
+  "author": "Christopher Carrassi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chr-st-ph-r/spake/issues"
+  },
+  "homepage": "https://github.com/chr-st-ph-r/spake#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
