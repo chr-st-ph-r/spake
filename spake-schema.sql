@@ -34,7 +34,7 @@ CREATE TABLE tag (
 
 CREATE TABLE tagged_quote (
     tag_id INT NOT NULL,
-    quote_id INT NOT NULL
+    quote_id INT NOT NULL,
     PRIMARY KEY(tag_id, quote_id),
     CONSTRAINT tq_fk1 FOREIGN KEY (tag_id) REFERENCES tag (id) ON UPDATE CASCADE,
     CONSTRAINT tq_fk2 FOREIGN KEY (quote_id) REFERENCES quote (id) ON UPDATE CASCADE
